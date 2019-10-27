@@ -322,4 +322,17 @@ nav div .nav a {
       -ms-flex-direction: column;
           flex-direction: column;
 }
+
+#choose-us .images .moved {
+  display: block;
+  -webkit-transform: translate(125px, 0px);
+          transform: translate(125px, 0px);
+}
+
+@media screen and (min-width: 723px) and (max-width: 990px) {
+  #choose-us .images {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+}
 /*# sourceMappingURL=main.css.map */
