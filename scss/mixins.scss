@@ -1,0 +1,17 @@
+
+
+    @mixin container-structure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        @content;
+    } 
+    @mixin paragraph-style {
+        color: $paragraph-color;
+        font-family: "Josefin Sans";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+            @content;
+        }
