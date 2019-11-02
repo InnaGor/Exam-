@@ -680,7 +680,7 @@ footer .container div a {
   color: #fefefe;
 }
 
-footer .container div a:nth-last-of-type(3) {
+footer .container div a:hover {
   color: #5474fd;
 }
 /*# sourceMappingURL=main.css.map */
