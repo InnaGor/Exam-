@@ -1,5 +1,7 @@
 @import "./variables.scss";
 @import "./mixins.scss";
+// @import "./media-quaries.scss"
+
 .home{
     width: 100%;
     height: 740px;
@@ -371,6 +373,7 @@ nav{
     }
 }
 
+
 //feedback**********************************************
 #feedback{
     width: 100%;
@@ -414,6 +417,7 @@ nav{
             width: 85%;
             @include paragraph-style;
             // сделать шрифт тоньше
+            
                    
             .fa-quote-left{
                 color: #5474fd;
